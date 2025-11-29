@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 
-df = pd.read_csv("ecr_with_labels.csv")
+df = pd.read_csv("trees.csv")
 
 train_df, test_df = train_test_split(
     df, 
